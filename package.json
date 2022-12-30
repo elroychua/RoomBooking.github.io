@@ -1,0 +1,33 @@
+{
+  "name": "elroychua.github.io",
+  "version": "1.0.0",
+  "description": "Elroy's Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx next build",
+    "start": "npx next start",
+    "lint": "npx next lint",
+    "dev": "npx next dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "sudo rm -rf .next && sudo rm -rf node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elroychua/elroychua.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elroychua/elroychua.github.io/issues"
+  },
+  "homepage": "https://github.com/elroychua/elroychua.github.io#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^8.0.2",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
