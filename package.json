@@ -9,7 +9,9 @@
     "lint": "npx next lint",
     "dev": "npx next dev",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "sudo rm -rf .next && sudo rm -rf node_modules"
+    "clean": "sudo rm -rf .next && sudo rm -rf node_modules",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/elroychua/elroychua.github.io/issues"
   },
-  "homepage": "https://github.com/elroychua/elroychua.github.io#readme",
+  "homepage": "https://elroychua.github.io/",
   "dependencies": {
     "@chakra-ui/react": "^2.4.6",
     "@emotion/react": "^11.10.5",
@@ -29,5 +31,8 @@
     "next": "^13.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
